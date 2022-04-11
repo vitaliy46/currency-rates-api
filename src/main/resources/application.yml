@@ -15,12 +15,12 @@ openExchangeRates:
   url: https://openexchangerates.org/api
   latest: /latest.json
   historical: /historical
-  appId: 95d1d9d4299141f5b6d2923753a9262b
+  appId: [OpenExchangeRates API token]
   baseCurrency: USD
 
 giphy:
   url: https://api.giphy.com/v1/gifs/random
-  apiKey: TmmH6ycaqUBUVcCW8uCdLC6b8vJ5yKz3
+  apiKey: [Giphy API token]
   upTag: rich
   downTag: broke
   rating: g
