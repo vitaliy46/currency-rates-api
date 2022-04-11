@@ -1,0 +1,26 @@
+version: v1
+
+server:
+  port: 8083
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:keystore.p12
+    key-store-password: 12345678
+    key-alias: listener
+    enabled: true
+  error:
+    include-message: always
+
+openExchangeRates:
+  url: https://openexchangerates.org/api
+  latest: /latest.json
+  historical: /historical
+  appId: 95d1d9d4299141f5b6d2923753a9262b
+  baseCurrency: USD
+
+giphy:
+  url: https://api.giphy.com/v1/gifs/random
+  apiKey: TmmH6ycaqUBUVcCW8uCdLC6b8vJ5yKz3
+  upTag: rich
+  downTag: broke
+  rating: g
